@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    vcArray = @[@{@"title":@"转场动画",@"vc":@"TransitionViewController"},@{@"title":@"语音转文字",@"vc":@"yuyinViewController"},@{@"title":@"摇一摇,（改变背景,你摇完可以干其他的）",@"vc":@"YAYViewController"}];
+    vcArray = @[@{@"title":@"转场动画",@"vc":@"TransitionViewController，【可以看看，您宁一个工程】CustomTansitionsAnimation"},@{@"title":@"语音转文字",@"vc":@"yuyinViewController"},@{@"title":@"摇一摇,（改变背景,你摇完可以干其他的）",@"vc":@"YAYViewController"},@{@"title":@"渐变颜色",@"vc":@"ColorsViewController"}];
 //    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 }
 

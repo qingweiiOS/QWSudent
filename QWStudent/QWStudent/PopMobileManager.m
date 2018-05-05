@@ -24,7 +24,7 @@
     //得到动画内容展示 视图 容器 （系统提供） 我们将要在这个视图上进行动画操作
     UIView *animationView = [transitionContext containerView];
     /*
-     * 得到源视图 要处理的视图 并且创建副本 [截图 懂不]
+     * 得到源视图 要处理的视图 并且创建副本 [截图]
      * snapshotViewAfterScreenUpdates YES 白板。NO 有内容
      */
     

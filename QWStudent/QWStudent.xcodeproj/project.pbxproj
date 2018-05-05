@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D422001209D4A660035057E /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D422000209D4A660035057E /* ColorsViewController.m */; };
+		4D422005209D54E90035057E /* ParticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D422004209D54E90035057E /* ParticleViewController.m */; };
 		7F08135D1F6A24E000124FA8 /* PopMobileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F08135C1F6A24E000124FA8 /* PopMobileManager.m */; };
 		7F0813631F6A55EF00124FA8 /* YAYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0813621F6A55EF00124FA8 /* YAYViewController.m */; };
 		7F46ED0A1F67B33D00CF28CB /* yuyinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46ED091F67B33D00CF28CB /* yuyinViewController.m */; };
@@ -31,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D421FFF209D4A660035057E /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		4D422000209D4A660035057E /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		4D422003209D54E90035057E /* ParticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleViewController.h; sourceTree = "<group>"; };
+		4D422004209D54E90035057E /* ParticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleViewController.m; sourceTree = "<group>"; };
 		7F08135B1F6A24E000124FA8 /* PopMobileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMobileManager.h; sourceTree = "<group>"; };
 		7F08135C1F6A24E000124FA8 /* PopMobileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMobileManager.m; sourceTree = "<group>"; };
 		7F0813611F6A55EF00124FA8 /* YAYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAYViewController.h; sourceTree = "<group>"; };
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D422002209D54C70035057E /* 粒子动画 有没有很炫酷 */ = {
+			isa = PBXGroup;
+			children = (
+				4D422003209D54E90035057E /* ParticleViewController.h */,
+				4D422004209D54E90035057E /* ParticleViewController.m */,
+			);
+			name = "粒子动画 有没有很炫酷";
+			sourceTree = "<group>";
+		};
 		7F08135E1F6A559300124FA8 /* 摇啊摇 */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,11 +109,13 @@
 			name = "分类";
 			sourceTree = "<group>";
 		};
-		7F0813601F6A55C400124FA8 /* New Group */ = {
+		7F0813601F6A55C400124FA8 /* 我们来实现渐变颜色 */ = {
 			isa = PBXGroup;
 			children = (
+				4D421FFF209D4A660035057E /* ColorsViewController.h */,
+				4D422000209D4A660035057E /* ColorsViewController.m */,
 			);
-			name = "New Group";
+			name = "我们来实现渐变颜色";
 			sourceTree = "<group>";
 		};
 		7F46ED071F67B31E00CF28CB /* 语音转文字 */ = {
@@ -129,7 +146,8 @@
 		7F7571FA1F429A8400ABF663 /* QWStudent */ = {
 			isa = PBXGroup;
 			children = (
-				7F0813601F6A55C400124FA8 /* New Group */,
+				4D422002209D54C70035057E /* 粒子动画 有没有很炫酷 */,
+				7F0813601F6A55C400124FA8 /* 我们来实现渐变颜色 */,
 				7F08135F1F6A55A700124FA8 /* 分类 */,
 				7F08135E1F6A559300124FA8 /* 摇啊摇 */,
 				7F46ED071F67B31E00CF28CB /* 语音转文字 */,
@@ -293,12 +311,14 @@
 				7F7572291F42A42500ABF663 /* MobileViewController.m in Sources */,
 				7F7572151F429AC700ABF663 /* MyTableViewController.m in Sources */,
 				7F0813631F6A55EF00124FA8 /* YAYViewController.m in Sources */,
+				4D422001209D4A660035057E /* ColorsViewController.m in Sources */,
 				7F08135D1F6A24E000124FA8 /* PopMobileManager.m in Sources */,
 				7F7572001F429A8400ABF663 /* AppDelegate.m in Sources */,
 				7F46ED0A1F67B33D00CF28CB /* yuyinViewController.m in Sources */,
 				7F75722E1F42A5A100ABF663 /* MobileManager.m in Sources */,
 				7F7571FD1F429A8400ABF663 /* main.m in Sources */,
 				7F46ED0D1F67C13500CF28CB /* UIView+Extension.m in Sources */,
+				4D422005209D54E90035057E /* ParticleViewController.m in Sources */,
 				7F7572191F429B5B00ABF663 /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
